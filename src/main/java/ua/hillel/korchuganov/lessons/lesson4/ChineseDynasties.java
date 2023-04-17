@@ -13,6 +13,7 @@ public class ChineseDynasties {
 
         System.out.println("Загальна кілкість воїнів Лі: "  + totalNumberOfWarriorsLee);
         System.out.println("Загальна кількість атаки арміЇ Лі: " + totalAttackValueLee);
+        System.out.println();
 
 
         int warriorMing = 9;
