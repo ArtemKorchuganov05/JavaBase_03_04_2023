@@ -5,12 +5,15 @@ public class ChineseDynasties {
         int warriorLee = 13;
         int archerLee = 24;
         int riderLee = 46;
+
         int warriorsOfEveryType = 860; // Воїни кожного типу
         int totalNumberOfWarriorsLee = warriorsOfEveryType * 3; // Загальна кількість воїнів армії Лі
         int totalAttackValueLee = (warriorsOfEveryType * warriorLee) + (warriorsOfEveryType * archerLee) +
                 (warriorsOfEveryType * riderLee); // Загальна кількість атаки армії Лі
+
         System.out.println("Загальна кілкість воїнів Лі: "  + totalNumberOfWarriorsLee);
         System.out.println("Загальна кількість атаки арміЇ Лі: " + totalAttackValueLee);
+
 
         int warriorMing = 9;
         int archerMing = 35;
