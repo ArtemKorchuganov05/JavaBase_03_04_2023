@@ -123,9 +123,9 @@ public class CounterStrike {
 
        if (avgFragsTeam1 > avgFragsTeam2){
             System.out.println("Перемогла команда : " + nameTeam1 + " набрала " + resultFragsTeam1 + " балів");
-        } else if(avgFragsTeam1 < avgFragsTeam2) {
+        } else if (avgFragsTeam1 < avgFragsTeam2) {
            System.out.println("Перемогла команда : " + nameTeam2 + " набрала " + resultFragsTeam2 + " балів");
-       } else if  (avgFragsTeam1 == avgFragsTeam2) {
+       } else {
            System.out.println("Нічия! " + "Перша команда " + nameTeam1 + " набрала " + resultFragsTeam1 + " балів, " +
                    "друга команда " + nameTeam2 + " набрала " + resultFragsTeam2 + " балів");
        }
