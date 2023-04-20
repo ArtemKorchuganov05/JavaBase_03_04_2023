@@ -9,7 +9,7 @@ public class Main {
 //
 //        int a = 10;
 //        int b = 3;
-//
+         int c = 3;
 //       System.out.println(a + b);
 //       System.out.println(a - b);
 //        System.out.println(a * b);
