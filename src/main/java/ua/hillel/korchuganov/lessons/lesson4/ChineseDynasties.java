@@ -26,7 +26,7 @@ public class ChineseDynasties {
                 (warriorsOfEveryType + riderMing); // Загальна кількість атаки армії Мінь
 
         System.out.println("Загальна кілкість воїнів Мінь: " + totalNumberOfWarriorsMing);
-        System.out.println("Загальна кількість атаки арміЇ Мінь: " + totalAttackValueMing);
+        System.out.println("Загальна кількість атаки арміЇ Мінь: " +  totalAttackValueMing);
 
     }
 }
