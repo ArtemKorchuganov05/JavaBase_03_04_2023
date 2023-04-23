@@ -163,6 +163,13 @@ public class Main {
 //            System.out.println( x / 10);
 //            System.out.println( x % 10);
 //        }
+            int number = 140;
+            int first = number / 100;
+            int second = (number / 10) % 10;
+            int third = number % 10;
 
+        System.out.println(first);
+        System.out.println(second);
+        System.out.println(third);
     }
 }
