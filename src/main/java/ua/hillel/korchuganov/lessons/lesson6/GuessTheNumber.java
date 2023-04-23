@@ -12,7 +12,7 @@ public class GuessTheNumber {
         int attempts = 3;
 
         System.out.println("Вгадайте число в діапазоні від 0 до 10. У вас є " + attempts + " спроби.");
-        System.out.println("Рандомне число: " + number);
+        System.out.println("Загадане число: " + number);
 
 
         while (i <= attempts) {
