@@ -35,7 +35,7 @@ public class GuessTheNumber {
                     System.out.println("Не вгадали. Спробуйте ще раз.");
                 }
             } else {
-                System.out.println("Неправильні дані! Спробуйие ще раз!");
+                System.out.println("Неправильні дані! Спробуйте ще раз!");
             }
             scanner.nextLine();
             i++;
