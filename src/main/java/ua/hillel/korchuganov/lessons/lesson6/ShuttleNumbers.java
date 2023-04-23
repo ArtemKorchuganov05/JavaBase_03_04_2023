@@ -11,7 +11,7 @@ public class ShuttleNumbers {
             System.out.println(i);
             count++;
 
-            if (count == 500) {
+            if (count == 100) {
                 System.out.println("Знайдено " + count + " номерів шатлів.");
                 break;
             }
