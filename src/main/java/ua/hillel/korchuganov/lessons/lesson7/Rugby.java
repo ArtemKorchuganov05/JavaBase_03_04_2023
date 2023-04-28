@@ -8,8 +8,8 @@ public class Rugby {
         int[] team2 = new int[25];
 
         int numberOfPlayers = 25;
-        int sum1 = 0;
-        int sum2 = 0;
+        double sum1 = 0;
+        double sum2 = 0;
 
         for (int i = 0; i < team1.length; i++) {
             team1[i] =(int)(Math.random() * 23) + 18;
@@ -29,8 +29,8 @@ public class Rugby {
         System.out.println("Сумма віку всіх гравців другої команди: " + sum2);
         System.out.println();
 
-        int avg1 = sum1 / numberOfPlayers;
-        int avg2 = sum2 / numberOfPlayers;
+        double avg1 = sum1 / numberOfPlayers;
+        double avg2 = sum2 / numberOfPlayers;
 
         System.out.println("Середній вік гравців першої команди: " + avg1);
         System.out.println("Середній вік гравців другої команди: " + avg2);
