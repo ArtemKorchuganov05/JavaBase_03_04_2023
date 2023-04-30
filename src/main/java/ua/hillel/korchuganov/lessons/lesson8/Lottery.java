@@ -7,6 +7,7 @@ public class Lottery {
         int[] first = new int[7];
         int[] second = new int[7];
         int matches = 0;
+
         for (int i = 0; i < first.length; i++) {
             first[i] = (int) (Math.random() * 10);
             second[i] = (int) (Math.random() * 10);
