@@ -1,4 +1,4 @@
-package ua.hillel.korchuganov.lessons.lesson4.lesson9;
+package ua.hillel.korchuganov.lessons.lesson9;
 
 public class Transpon {
     public static void main(String[] args) {
