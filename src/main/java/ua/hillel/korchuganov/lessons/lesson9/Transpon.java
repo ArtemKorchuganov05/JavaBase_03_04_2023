@@ -2,7 +2,7 @@ package ua.hillel.korchuganov.lessons.lesson9;
 
 public class Transpon {
     public static void main(String[] args) {
-        int[][] array = new int[4][4];
+        int[][] array = new int[3][2];
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
