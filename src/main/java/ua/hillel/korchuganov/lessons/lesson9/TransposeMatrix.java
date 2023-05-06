@@ -65,7 +65,6 @@ public class TransposeMatrix {
             System.out.println();
         }
         System.out.println();
-        System.out.println();
 
         System.out.println("Транспонована матриця: ");
         for (int i = 0; i < n; i++) {
