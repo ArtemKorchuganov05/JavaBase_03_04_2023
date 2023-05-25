@@ -23,7 +23,8 @@ public class FitnessTracker {
         this.phone = phone;
         calculateAge();
     }
-    public void setLastName(String lastName){
+
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
@@ -39,24 +40,24 @@ public class FitnessTracker {
         this.stepsDay = stepsDay;
     }
 
-    public void calculateAge(){
+    public void calculateAge() {
         int currentYear = 2023;
         age = currentYear - birthYear;
 
-        if(birthMonth > 5 || (birthMonth == 5 && birthday > 25)) {
+        if (birthMonth > 5 || (birthMonth == 5 && birthday > 25)) {
             age--;
         }
     }
 
-    public void printAccountInfo(){
+    public void printAccountInfo() {
         System.out.println("Name: " + firstName + " " + lastName);
-        System.out.println("Date of Birth: " + birthday +  "-" + birthMonth + "-" + birthYear);
+        System.out.println("Date of Birth: " + birthday + "-" + birthMonth + "-" + birthYear);
         System.out.println("Email: " + email);
         System.out.println("Phone: " + phone);
-        System.out.println("Surname: "  + lastName);
-        System.out.println("Weight " +  weight + " kg");
+        System.out.println("Surname: " + lastName);
+        System.out.println("Weight " + weight + " kg");
         System.out.println("Blood pressure: " + bloodPressure);
-        System.out.println("Steps per Day: " +  stepsDay);
+        System.out.println("Steps per Day: " + stepsDay);
         System.out.println("Age: " + age);
         System.out.println();
     }
