@@ -8,7 +8,6 @@ public class FitnessTracker {
     private int birthYear;
     private String email;
     private String phone;
-    private String surname;
     private double weight;
     private String bloodPressure;
     private int stepsDay;
@@ -54,7 +53,7 @@ public class FitnessTracker {
         System.out.println("Date of Birth: " + birthday +  "-" + birthMonth + "-" + birthYear);
         System.out.println("Email: " + email);
         System.out.println("Phone: " + phone);
-        System.out.println("Surname" + surname);
+        System.out.println("Surname: "  + lastName);
         System.out.println("Weight " +  weight + " kg");
         System.out.println("Blood pressure: " + bloodPressure);
         System.out.println("Steps per Day: " +  stepsDay);
