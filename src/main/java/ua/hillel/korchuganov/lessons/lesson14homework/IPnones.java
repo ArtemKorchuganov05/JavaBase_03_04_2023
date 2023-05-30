@@ -2,7 +2,7 @@ package ua.hillel.korchuganov.lessons.lesson14homework;
 
 import java.util.SortedMap;
 
-public class IPnones implements Smartphones, iOs {
+public class IPnones implements Smartphones, IOS {
 
     @Override
     public void call() {
