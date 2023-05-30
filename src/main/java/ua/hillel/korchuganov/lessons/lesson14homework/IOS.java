@@ -1,5 +1,5 @@
 package ua.hillel.korchuganov.lessons.lesson14homework;
 
-public interface IOs {
+public interface IOS {
     void runiOSCommands();
 }
