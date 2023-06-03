@@ -42,7 +42,7 @@ public class Exam {
 //        створіть клас Exam, у ньому попросіть користувача ввести тип
 //        транспортного засобу:
 //        MOTORCYCLE, CAR, BUS, TRUCK
-       while(true){
+
             Scanner scanner = new Scanner(System.in);
 
             CarType[] carTypes = CarType.values();
@@ -58,7 +58,7 @@ public class Exam {
                         userCarType = CarType.valueOf(userValue);
                         break;
                     }
-                }
+
 
 //            if(userCarType != null) {
 //                break;
