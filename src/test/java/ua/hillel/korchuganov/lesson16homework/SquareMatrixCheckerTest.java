@@ -19,4 +19,5 @@ public class SquareMatrixCheckerTest {
         Assertions.assertFalse(isSquareMatrix(nonSquareMatrix));
         Assertions.assertFalse(isSquareMatrix(emptyMatrix));
 
-    }}
+    }
+}
